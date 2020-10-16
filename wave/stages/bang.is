@@ -1,0 +1,4 @@
+;;; same program in WIND
+	mov	$'!,r0
+	trap	$SysPutChar
+	trap	$SysHalt

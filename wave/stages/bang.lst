@@ -1,0 +1,15 @@
+WIND Assembly of bang.is                                                Page 1
+
+Line [ Addr ]
+0001           ;;; same program in WIND
+0002 [0x0000]:         mov     $'!,r0
+     [0x0000]: 48180000 00000021          
+0003 [0x0002]:         trap    $SysPutChar
+     [0x0002]: 00180000 00000003          
+0004 [0x0004]:         trap    $SysHalt
+     [0x0004]: 00180000 00000000          
+
+-------------------------------------------------------------------------------
+Symbols defined:
+-------------------------------------------------------------------------------
+Assembled 3 instructions at 20.69 instructions per second.
